@@ -37,7 +37,7 @@ body {
     color: var(--accent-color);
 }
 /*main header*/
-.page-navigation{
+.nav-link{
     text-decoration: none;
     font-weight: 500;
     font-size: 14px;
@@ -46,12 +46,12 @@ body {
     color: var(--secondary-color);
 }
 
-.page-navigation:hover,
-.page-navigation:focus {
+.nav-link:hover,
+.nav-link:focus {
     color: var(--accent-color);
 }
 
-.page-navigation:current {
+.nav-link:current {
     color: var(--accent-color);
 }
 .nav-contact {
